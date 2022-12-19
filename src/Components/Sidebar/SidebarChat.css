@@ -1,0 +1,65 @@
+.sidebarChat{
+    display: flex;
+    padding: 0.5em 0.3em;
+    gap: 1em;
+    border-bottom: 1px solid #ececec;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebarChat:hover{
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none !important;
+    color: black;
+}
+
+.backdrop_content{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(234, 232, 232);
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.backdrop_content form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.backdrop_content form input{
+    width: 300px;
+    padding: 0.6em;
+    border-radius: 5px;
+    border: none;
+}
+.backdrop_content form input:focus{
+    outline: none;
+}
+
+.backdrop_content form .backdrop_btn{
+    display: flex;
+    gap: 1em;
+    align-self: flex-end;
+}
+.backdrop_content form .backdrop_btn button{
+    padding: 0.6em;
+    background-color: gray;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.backdrop_content form .backdrop_btn button:nth-child(2){
+    background-color: #dcf8c6;
+    color: black;
+    border: 1px solid black;
+}
+
+.backdrop_content form .backdrop_btn button:hover{
+    cursor: pointer;
+}
